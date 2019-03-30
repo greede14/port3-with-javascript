@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <script>
+
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <br>
+  <br>
+
+  <div class="jumbotron">
+    <h1 class="display-3">Mr.Anawin Athawong</h1> <br><br>
+    <table width="80%" align="center" style="padding: auto;">
+
+      <tr>
+        <td width="90%">
+
+          <h1>CPE Student</h1>
+          <h3><a href="mailto:best.gree@gmail.com">best.gree@gmail.com</a></h3>
+          <h3>+66933136779</h3>
+          <h3><a href="https://www.facebook.com/ethanjohnyetbetb">Facebook</a><br></h3>
+        </td>
+        <td align="center">
+        <th><img src="../images/profilephoto.jpg" alt="Profile Picture" style="width: 200px;height:200px"></th>
+        </td>
+      </tr>
+
+    </table><br><br>
+
+
+
+  </div>
+  <hr class="my-4">
+  <br>
+
+  <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+    <div class="card-header">Profile</div>
+    <div class="card-body">
+      <h4 class="card-title">studying Computer Engineering at Chiang Mai University</h4>
+
+    </div>
+
+
+  </div>
+
+  <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+    <div class="card-header">Skills</div>
+    <div class="card-body">
+      <h4 class="card-title">C++, C#, JAVA, HTML, English language, Chinese language, Gaming</h4>
+
+    </div>
+  </div>
+
+  <div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+    <div class="card-header">Education</div>
+    <div class="card-body">
+      <h4 class="card-title">High School:Strisrinan School - 5.0 XGPA<br>
+        studying : Computer Engineering</h4>
+
+    </div>
+  </div>
+  <br>
+  <div>
+      
+  <hr class="my-4">
+  <div class="clr"></div>
+  <p align="center"><a href="https://www.facebook.com/ethanjohnyetbetb">Anawin Athawong</a><br>
+    <a href="mailto:best.gree@gmail.com">best.gree@gmail.com</a>
+  </p>
+
+  <div style="font-style:#252 ;" align="right">
+    <button type="button" class="btn btn-secondary" onclick="topFunction()"><a>Back to top</a></button>
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
